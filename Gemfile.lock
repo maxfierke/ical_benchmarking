@@ -1,0 +1,44 @@
+GIT
+  remote: git@github.com:kjwierenga/ri_cal.git
+  revision: 9e599be7a3a4de3e88265951f451b94ab4245539
+  specs:
+    ri_cal (0.9.3)
+      tzinfo
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.2.7.1)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    benchmark-ips (2.7.2)
+    coderay (1.1.1)
+    i18n (0.7.0)
+    ice_cube (0.14.0)
+    json (1.8.3)
+    method_source (0.8.2)
+    minitest (5.9.0)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    slop (3.6.0)
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport (~> 4.2.0)
+  benchmark-ips
+  ice_cube
+  pry
+  ri_cal!
+
+BUNDLED WITH
+   1.12.5
